@@ -1,41 +1,44 @@
 
-html, body 
-{ 
- 
+html, body { 
  overflow: hidden
 }
+
 .Back{
     width: 100vw;
     height: 100vh;
-   background-color: #3D087B;
+    background-color: #3D087B;
 }
+
 .clo{
-    top: 34px;
+top: 34px;
 left: 124px;
 width: 204px;
 height: 77px;
 position: absolute;
 }
+
 .white{
-    background-color: #FFFFFF;
-    position: absolute;
-    top: 149px;
+background-color: #FFFFFF;
+position: absolute;
+top: 149px;
 left: 124px;
 width: 566px;
 height: 344px;
 border: 1px solid #EDEDED;
 border-radius: 10px;
 }
+
 .morn{
     background-color: #B85EBF;
     top: 527px;
-left: 124px;
-width: 566px;
-height: 77px;
-border-radius: 10px;
-position: absolute;
-opacity: 0.23
+    left: 124px;
+    width: 566px;
+    height: 77px;
+    border-radius: 10px;
+    position: absolute;
+    opacity: 0.23
 }
+
 .gm{
     
     top: 549px;
@@ -56,44 +59,44 @@ opacity: 0.23
     left: 96px;
     width: 111px;
     height: 31px;
-    
     font: normal normal 600 24px/38px Manrope;
-    letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
 }
+
 .par{
     position: absolute;
     top: 5px;
     left: 96px;
     width: 111px;
     height: 31px;
-    
     font: normal normal 600 24px/38px Manrope;
     letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+    color: #FFFFFF;  
 }
+
 button{
     position: absolute;
     top: 624px;
     left: 124px;
     width: 299px;
     height: 50px;
- 
     background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
     border-radius: 4px;
-    opacity: 1;
+   
 }
+
 .par{
     display: none;
 }
+
 button:hover .party{
     display:none;
 }
+
 button:hover .par{
     display: contents;
 }
+
 button:hover{
     background:transparent linear-gradient(to left,
     #6E54EC,
@@ -114,19 +117,16 @@ button:hover{
     box-sizing: border-box;
     padding: 10px 20px;
 }
+
 .not{
     position: absolute;
     top: 6px;
     left: 22px;
     width: 216px;
     height: 94px;
-    font: var(--unnamed-font-style-normal) normal bold 15px/25px var(--unnamed-font-family-manrope);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
     font: normal normal bold 15px/27px Manrope;
-    letter-spacing: 0px;
     color: #F25CFE;
-    opacity: 1;
+   
 }
 
 .time{
@@ -135,114 +135,92 @@ top: 42px;
 left: 706px;
 width: 536px;
 height: 130px;
-background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-border: 1px solid var(--unnamed-color-ededed);
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #EDEDED;
 border-radius: 10px;
-opacity: 1;
 z-index: 1;
 }
+
 .ti{
     position: fixed;
     top: 94px;
     left: 745px;
     width: 46px;
     height: 26px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 20px/32px var(--unnamed-font-family-manrope);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-3d087b);
-    
     font: normal normal 676 20px/32px Manrope;
-    letter-spacing: 0px;
     color: #3D087B;
-    text-transform: uppercase;
-    opacity: 1;
 }
+
 .tim{
     position: fixed;
     top: 62px;
     left: 823px;
     width: 80px;
     height: 90px;
-    /* background: transparent url(./timeline.png) 0% 0% no-repeat padding-box; */
-    opacity: 1;
 }
+
 .tim1{
     position: fixed;
     top: 62px;
-left: 922px;
-width: 82px;
-height: 90px;
-background: var(--unnamed-color-f6e2ff) 0% 0% no-repeat padding-box;
-background: #F6E2FF 0% 0% no-repeat padding-box;
-border-radius: 2px;
-opacity: 1;
+    left: 922px;
+    width: 82px;
+    height: 90px;
+    border-radius: 2px;
 }
+
 .tim2{
-    position: fixed;
-    top: 62px;
+position: fixed;
+top: 62px;
 left: 1019px;
 width: 82px;
 height: 90px;
-background: var(--unnamed-color-f6e2ff) 0% 0% no-repeat padding-box;
-background: #F6E2FF 0% 0% no-repeat padding-box;
 border-radius: 2px;
-opacity: 1;
+
 }
+
 .tim3{
-    position: fixed;
-    top: 62px;
+position: fixed;
+top: 62px;
 left: 1121px;
 width: 82px;
 height: 90px;
 background: transparent url('./AM_svg.png') 0% 0% no-repeat padding-box;
-opacity: 1;
+
 }
+
 .semi{
     position: fixed;
     top: 86px;
     left: 908px;
     font-size: 31px;
-    /* width: 7px; */
-    /* height: 35px; */
-    /* background: var(--unnamed-color-8a11bf) 0% 0% no-repeat padding-box; */
-    /* background: #8A11BF 0% 0% no-repeat padding-box; */
-    opacity: 1;
+
 }
+
 .semi1{
     position: fixed;
     top: 86px;
     left: 1007px;
     font-size: 31px;
-    opacity: 1;
+   
 }
+
 .ten{
     position: sticky;
     top: 74px;
     left: 836px;
     width: 33px;
     height: 43px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-8a11bf);
-    text-align: left;
     font: normal normal normal 36px/43px Barlow;
-    /* letter-spacing: 0px; */
     color: #8A11BF;
 }
+
 .hour{
     position: fixed;
     top: 99px;
     left: 838px;
     width: 56px;
     height: 28px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-5f0089);
-    text-align: left;
     font: normal normal normal 23px/28px Barlow;
-    letter-spacing: 0px;
     color: #5F0089;
 
 }
@@ -252,73 +230,55 @@ opacity: 1;
     left: 943px;
     width: 33px;
     height: 43px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-8a11bf);
-    text-align: left;
     font: normal normal normal 36px/43px Barlow;
     color: #8A11BF;
 }
+
 .zero1{
     top: 46px;
     position: fixed;
     left: 1043px;
     width: 33px;
     height: 43px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-8a11bf);
-    text-align: left;
     font: normal normal normal 36px/43px Barlow;
     color: #8A11BF;
 }
+
 .mins{
     position: fixed;
     top: 99px;
     left: 941px;
     width: 56px;
     height: 28px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-5f0089);
-    text-align: left;
     font: normal normal normal 23px/28px Barlow;
-    letter-spacing: 0px;
     color: #5F0089;
   
 }
+
 .secs{
     position: fixed;
     top: 99px;
     left: 1041px;
     width: 56px;
     height: 28px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-5f0089);
-    text-align: left;
     font: normal normal normal 23px/28px Barlow;
-    letter-spacing: 0px;
     color: #5F0089;
 
 }
+
 .am{
     position: fixed;
     top: 52px;
     left: 1134px;
     width: 48px;
     height: 43px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-ffffff);
-    text-align: left;
     font: normal normal normal 33px/47px Barlow;
     color: #FFFFFF;
-    opacity: 1;
 }
+
 .z1{
-    position: absolute;
-    top: 55px;
+position: absolute;
+top: 55px;
 left: 766px;
 width: 416px;
 height: 130px;
@@ -328,17 +288,18 @@ opacity: 0.71;
 z-index: 0;
 
 }
+
 .z2{
-    position: absolute;
-    top: 67px;
+position: absolute;
+top: 67px;
 left: 785px;
 width: 379px;
 height: 130px;
-background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 10px;
 opacity: 0.22;
 }
+
 .grab{
     position: absolute;
     top: 212px;
@@ -346,26 +307,21 @@ opacity: 0.22;
     width: 536px;
     height: 118px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    border: 1px solid var(--unnamed-color-ededed);
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #EDEDED;
     border-radius: 10px;
-    opacity: 1;
-    
-
-    
 
 }
+
 .grab1{
     font: normal normal 622 26px/122px Bauhaus Hv BT;
     color: #8E53F0;
-    opacity: 1;
     position: relative;
     left: 28px;
 }
+
 .girl{
-    position: absolute;
-    top: 345px;
+position: absolute;
+top: 345px;
 left: 707px;
 width: 536px;
 height: 341px;
@@ -374,19 +330,18 @@ left: 707px;
 width: 536px;
 height: 341px;
 background: transparent url('./Component\ 30\ –\ 1.png') 0% 0% no-repeat padding-box;
-opacity: 1;
-
 
 }
+
 .wake{
     position: relative;
     top: 15px;
     left: 18px;
     width: 34px;
     height: 34px;
-    opacity: 1;
     
 }
+
 .up{
     top: 17px;
     left: 100px;
@@ -394,33 +349,30 @@ opacity: 1;
     height: 23px;
     text-align: left;
     font: normal normal normal 18px/28px Manrope;
-    letter-spacing: 0px;
     color: #3D087B;
-    opacity: 1;
     position: absolute;
-    
 
 }
+
 .up1{
     position: absolute;
     top: 8px;
     left: 276px;
     width: 281px;
     height: 45px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 4px;
-    opacity: 1;
     color: #3D087BDE;
 }
+
 .up0{
-    top: 163px;
+top: 163px;
 left: 149px;
 width: 517px;
 height: 45px;
 
-opacity: 1;
 }
+
 .hr0{
     position: absolute;
     width: 0px;
@@ -428,23 +380,24 @@ opacity: 1;
     left: 35px;
     top: 53px;
 }
+
 .lunch0{
-    top: 163px;
+top: 163px;
 left: 149px;
 width: 517px;
 height: 45px;
 
-opacity: 1;
 }
+
 .lunch{
     position: relative;
     top: 54px;
     left: 18px;
     width: 34px;
     height: 34px;
-    opacity: 1;
     
 }
+
 .lun{
     top: 103px;
     left: 100px;
@@ -452,23 +405,21 @@ opacity: 1;
     height: 23px;
     text-align: left;
     font: normal normal normal 18px/28px Manrope;
-    letter-spacing: 0px;
     color: #3D087B;
-    opacity: 1;
     position: absolute;
 }
+
 .lun1{
     position: absolute;
     top: 93px;
     left: 276px;
     width: 281px;
     height: 45px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 4px;
-    opacity: 1;
     color: #3D087BDE;
 }
+
 .hr1{
     position: absolute;
     width: 0px;
@@ -476,23 +427,24 @@ opacity: 1;
     left: 35px;
     top: 134px;
 }
+
 .sleep0{
-    top: 163px;
+top: 163px;
 left: 149px;
 width: 517px;
 height: 45px;
 
-opacity: 1;
 }
+
 .sleep{
     position: relative;
     top: 100px;
     left: 18px;
     width: 34px;
     height: 34px;
-    opacity: 1;
     
 }
+
 .sle{
     top: 193px;
     left: 100px;
@@ -500,23 +452,21 @@ opacity: 1;
     height: 23px;
     text-align: left;
     font: normal normal normal 18px/28px Manrope;
-    letter-spacing: 0px;
     color: #3D087B;
-    opacity: 1;
     position: absolute;
 }
+
 .sle1{
     position: absolute;
     top: 185px;
     left: 276px;
     width: 281px;
     height: 45px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 4px;
-    opacity: 1;
-        color: #3D087BDE;
+    color: #3D087BDE;
 }
+
 .hr2{
     position: absolute;
     width: 0px;
@@ -524,25 +474,25 @@ opacity: 1;
     left: 35px;
     top: 134px;
 }
+
 .night0{
-    top: 163px;
+top: 163px;
 left: 149px;
 width: 517px;
 height: 45px;
 
-opacity: 1;
 }
+
 .night{
     position: relative;
     top: 156px;
     left: 18px;
     width: 34px;
     height: 34px;
-    opacity: 1;
     color: #3D087B;
-    
-    
+       
 }
+
 .nig{
     top: 294px;
     left: 100px;
@@ -550,23 +500,21 @@ opacity: 1;
     height: 23px;
     text-align: left;
     font: normal normal normal 18px/28px Manrope;
-    letter-spacing: 0px;
     color: #3D087B;
-    opacity: 1;
     position: absolute;
 }
+
 .nig1{
     position: absolute;
     top: 287px;
     left: 276px;
     width: 281px;
     height: 45px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 4px;
-    opacity: 1;
     color: #3D087BDE;
 }
+
 .hr3{
     position: absolute;
     width: 0px;
@@ -574,23 +522,20 @@ opacity: 1;
     left: 35px;
     top: 234px;
 }
-.one{
-    letter-spacing: 0.25px;
-color: #3D087BDE;
-opacity: 1;
-}
+
 @media all and (max-width:500px) and (max-height:850px) {
    
 html, body 
 { 
- 
  overflow: hidden
 }
+
 .Back{
     width: 100vw;
     height: 200vh;
-   background-color: #3D087B;
+    background-color: #3D087B;
 }
+
 .clo{
     top: 31px;
     left: 21px;
@@ -598,8 +543,9 @@ html, body
     height: 57px;
     position: absolute;;
 }
+
 .white{
- background-color: #FFFFFF;
+    background-color: #FFFFFF;
     position: absolute;
     top: 292px;
     left: 14px;
@@ -608,6 +554,7 @@ html, body
     border: 1px solid #EDEDED;
     border-radius: 10px;
 }
+
 .morn{
     background-color: #B85EBF;
     top: 646px;
@@ -618,6 +565,7 @@ html, body
     position: absolute;
     opacity: 0.23;
 }
+
 .gm{
     
     top: 666px;
@@ -626,56 +574,55 @@ html, body
     width: 381px;
     height: 34px;
     font: normal normal 975 20px/1px Bauhaus Hv BT;
-    letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
+    
 }
-
 
 .party{
     position: absolute;
     top: 5px;
     left: 51px;
-        width: 111px;
+    width: 111px;
     height: 31px;
-    
     font: normal normal 600 24px/38px Manrope;
-    letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
+   
 }
+
 .par{
     position: absolute;
     top: 5px;
     left: 96px;
     width: 111px;
     height: 31px;
-    
     font: normal normal 600 24px/38px Manrope;
-    letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
+
 }
+
 button{
     position: absolute;
     top: 729px;
     left: 77px;
     width: 213px;
     height: 50px;
- 
     background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
     border-radius: 4px;
-    opacity: 1;
+    
 }
+
 .par{
     display: none;
 }
+
 button:hover .party{
     display:none;
 }
+
 button:hover .par{
     display: contents;
 }
+
 button:hover{
     background:transparent linear-gradient(to left,
     #6E54EC,
@@ -696,19 +643,16 @@ button:hover{
     box-sizing: border-box;
     padding: 10px 20px;
 }
+
 .not{
     position: absolute;
     top: 6px;
     left: 22px;
     width: 216px;
     height: 94px;
-    font: var(--unnamed-font-style-normal) normal bold 15px/25px var(--unnamed-font-family-manrope);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
     font: normal normal bold 15px/27px Manrope;
-    letter-spacing: 0px;
     color: #F25CFE;
-    opacity: 1;
+    
 }
 
 .time{
@@ -717,62 +661,51 @@ button:hover{
     left: 20px;
     width: 320px;
     height: 130px;
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    border: 1px solid var(--unnamed-color-ededed);
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 10px;
-    opacity: 1;
     z-index: 1;
 }
+
 .ti{
     position: fixed;
     top: 161px;
     left: 21px;
-    /* width: 30px; */
     height: -52px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 20px/32px var(--unnamed-font-family-manrope);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-3d087b);
     font: normal normal 676 15px/32px Manrope;
-    letter-spacing: 0px;
     color: #3D087B;
-    /* text-transform: uppercase; */
-    opacity: 1;
+
 }
+
 .tim{
     position: fixed;
     top: 127px;
     left: 67px;
     width: 56px;
     height: 90px;
-    /* background: transparent url(./timeline.png) 0% 0% no-repeat padding-box; */
-    opacity: 1;
+   
 }
+
 .tim1{
     position: fixed;
     top: 127px;
     left: 132px;
     width: 56px;
     height: 90px;
-    /* background: transparent url(./timeline.png) 0% 0% no-repeat padding-box; */
-    opacity: 1;
-    background: var(--unnamed-color-f6e2ff) 0% 0% no-repeat padding-box;
     background: #F6E2FF 0% 0% no-repeat padding-box;
     border-radius: 2px;
 }
+
 .tim2{
     position: fixed;
     top: 127px;
     left: 199px;
     width: 56px;
     height: 90px;
-    /* background: transparent url(./timeline.png) 0% 0% no-repeat padding-box; */
-    opacity: 1;
-    background: var(--unnamed-color-f6e2ff) 0% 0% no-repeat padding-box;
     background: #F6E2FF 0% 0% no-repeat padding-box;
     border-radius: 2px;
 }
+
 .tim3{
     position: fixed;
     top: 127px;
@@ -780,27 +713,24 @@ button:hover{
     left: 267px;
     width: 61px;
     height: 90px;
-    /* background: transparent url(./timeline.png) 0% 0% no-repeat padding-box; */
-    opacity: 1;
     background: transparent url(./AM_svg.png) 0% 0% no-repeat padding-box;
 }
+
 .semi{
     position: fixed;
     top: 153px;
     left: 124px;
     font-size: 31px;
-    /* width: 7px; */
-    /* height: 35px; */
-    /* background: var(--unnamed-color-8a11bf) 0% 0% no-repeat padding-box; */
-    /* background: #8A11BF 0% 0% no-repeat padding-box; */
-    opacity: 1;
+
 }
+
 .semi1{
     position: fixed;
     top: 153px;
     left: 189px;
     font-size: 31px;
 }
+
 .ten{
     position: fixed;
     top: 101px;
@@ -810,59 +740,41 @@ button:hover{
     color: #8A11BF;
     font: normal normal normal 26px/68px Barlow;
 }
+
 .hour{
     position: fixed;
     top: 161px;
     left: 77px;
     width: 56px;
     height: 28px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-5f0089);
-    text-align: left;
     font: normal normal normal 18px/28px Barlow;
-    letter-spacing: 0px;
     color: #5F0089;
 
 }
 .zero{
     position: fixed;
-    /* top: 45px; */
-    /* left: 30px; */
     top: 115px;
     left: 146px;
     width: 33px;
     height: 43px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-8a11bf);
-    text-align: left;
     font: normal normal normal 26px/43px Barlow;
     color: #8A11BF;
 }
+
 .zero1{
     top: 114px;
     left: 213px;
-    /* height: 43px; */
-    /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow); */
-    /* letter-spacing: var(--unnamed-character-spacing-0); */
-    /* color: var(--unnamed-color-8a11bf); */
-    /* text-align: left; */
     font: normal normal normal 26px/43px Barlow;
      color: #8A11BF;
 }
+
 .mins{
     position: fixed;
     top: 161px;
     left: 141px;
     width: 56px;
     height: 28px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-5f0089);
-    text-align: left;
     font: normal normal normal 18px/28px Barlow;
-    letter-spacing: 0px;
     color: #5F0089;
   
 }
@@ -872,28 +784,21 @@ button:hover{
     left: 212px;
     width: 56px;
     height: 28px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-5f0089);
-    text-align: left;
     font: normal normal normal 18px/28px Barlow;
-    letter-spacing: 0px;
     color: #5F0089;
 
 }
+
 .am{
     position: fixed;
     top: 120px;
     left: 273px;
     width: 48px;
     height: 43px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-ffffff);
-    /* text-align: left; */
     font: normal normal normal 29px/47px Barlow;
     color: #FFFFFF;
 }
+
 .z1{
     position: absolute;
     top: 126px;
@@ -911,34 +816,30 @@ button:hover{
     left: 80px;
     width: 203px;
     height: 130px;
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 0.22;
 }
+
 .grab{
     position: absolute;
     top: 915px;
     left: 20px;
     width: 320px;
     height: 71px;
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    border: 1px solid var(--unnamed-color-ededed);
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 10px;
-    
-
-    
 
 }
+
 .grab1{
     font: normal normal 622 16px/76px Bauhaus Hv BT;
     color: #8E53F0;
-    opacity: 1;
     position: relative;
     left: 12px;
 }
+
 .girl{
     position: absolute;
     top: 345px;
@@ -950,20 +851,19 @@ button:hover{
     width: 536px;
     height: 341px;
     background: transparent url(./Component\ 30\ –\ 1.png) 0% 0% no-repeat padding-box;
-    opacity: 1;
     background-size: auto 60%;
 
-
 }
+
 .wake{
     position: relative;
     top: 15px;
     left: 18px;
     width: 34px;
     height: 34px;
-    opacity: 1;
     
 }
+
 .up{
     top: 17px;
     left: 65px;
@@ -973,10 +873,8 @@ button:hover{
     font: normal normal normal 18px/28px Manrope;
     letter-spacing: 0px;
     color: #3D087B;
-    opacity: 1;
     position: absolute;
     
-
 }
 .up1{
     position: absolute;
@@ -987,17 +885,17 @@ button:hover{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 4px;
-    opacity: 1;
     color: #3D087BDE;
 }
+
 .up0{
-    top: 163px;
+top: 163px;
 left: 149px;
 width: 517px;
 height: 45px;
 
-opacity: 1;
 }
+
 .hr0{
     position: absolute;
     width: 0px;
@@ -1005,35 +903,35 @@ opacity: 1;
     left: 35px;
     top: 53px;
 }
+
 .lunch0{
-    top: 163px;
+top: 163px;
 left: 149px;
 width: 517px;
 height: 45px;
 
-opacity: 1;
 }
+
 .lunch{
     position: relative;
     top: 54px;
     left: 18px;
     width: 34px;
     height: 34px;
-    opacity: 1;
     
 }
+
 .lun{
     top: 103px;
     left: 65px;
-        width: 141px;
+    width: 141px;
     height: 23px;
     text-align: left;
     font: normal normal normal 18px/28px Manrope;
-    letter-spacing: 0px;
     color: #3D087B;
-    opacity: 1;
     position: absolute;
 }
+
 .lun1{
     position: absolute;
     top: 93px;
@@ -1043,9 +941,9 @@ opacity: 1;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 4px;
-    opacity: 1;
     color: #3D087BDE;
 }
+
 .hr1{
     position: absolute;
     width: 0px;
@@ -1053,23 +951,24 @@ opacity: 1;
     left: 35px;
     top: 134px;
 }
+
 .sleep0{
-    top: 163px;
+top: 163px;
 left: 149px;
 width: 517px;
 height: 45px;
 
-opacity: 1;
 }
+
 .sleep{
     position: relative;
     top: 100px;
     left: 18px;
     width: 34px;
     height: 34px;
-    opacity: 1;
     
 }
+
 .sle{
     top: 193px;
     left: 65px;
@@ -1077,11 +976,10 @@ opacity: 1;
     height: 23px;
     text-align: left;
     font: normal normal normal 18px/28px Manrope;
-    letter-spacing: 0px;
     color: #3D087B;
-    opacity: 1;
     position: absolute;
 }
+
 .sle1{
     position: absolute;
     top: 185px;
@@ -1091,9 +989,9 @@ opacity: 1;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 4px;
-    opacity: 1;
-        color: #3D087BDE;
+    color: #3D087BDE;
 }
+
 .hr2{
     position: absolute;
     width: 0px;
@@ -1101,25 +999,24 @@ opacity: 1;
     left: 35px;
     top: 134px;
 }
+
 .night0{
-    top: 163px;
+top: 163px;
 left: 149px;
 width: 517px;
 height: 45px;
 
-opacity: 1;
 }
+
 .night{
     position: relative;
     top: 156px;
     left: 18px;
     width: 34px;
-    height: 34px;
-    opacity: 1;
     color: #3D087B;
     
-    
 }
+
 .nig{
     top: 294px;
     left: 65px;
@@ -1127,9 +1024,7 @@ opacity: 1;
     height: 23px;
     text-align: left;
     font: normal normal normal 18px/28px Manrope;
-    letter-spacing: 0px;
     color: #3D087B;
-    opacity: 1;
     position: absolute;
 }
 .nig1{
@@ -1141,20 +1036,13 @@ opacity: 1;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #EDEDED;
     border-radius: 4px;
-    opacity: 1;
     color: #3D087BDE;
 }
+
 .hr3{
     position: absolute;
     width: 0px;
     height: 35px;
     left: 35px;
     top: 234px;
-}
-.one{
-    letter-spacing: 0.25px;
-color: #3D087BDE;
-opacity: 1;
-}
- 
 }
