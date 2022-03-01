@@ -1039,10 +1039,12 @@ height: 45px;
     color: #3D087BDE;
 }
 
-.hr3{
+.hr3
+{
     position: absolute;
     width: 0px;
     height: 35px;
     left: 35px;
     top: 234px;
+}
 }
